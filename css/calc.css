@@ -1,0 +1,23 @@
+
+:root {
+
+/* Space xs: 12px → 16px */
+--space-xs: clamp(0.75rem, calc(0.66rem + 0.43vw), 1.00rem);
+
+/* Space 3xl: 96px → 162px */
+    --space-3xl: clamp(6.00rem, calc(4.57rem + 7.17vw), 10.13rem);
+
+    /* Space 2xl-3xl: 40px → 180px */
+        --space-2xl-3xl: clamp(2.50rem, calc(-0.54rem + 15.22vw), 11.25rem);
+
+/* FONT CALCULATIONS */
+
+/* Step 3: 19.53px → 62.50px */
+    --step-0: clamp(1.00rem, calc(0.96rem + 0.22vw), 1.13rem);
+
+    --step-3: clamp(1.22rem, calc(0.29rem + 4.67vw), 3.91rem);
+
+/* Step 4: 24.41px → 78.13px */
+    --step-4: clamp(1.53rem, calc(0.36rem + 5.84vw), 4.88rem);
+
+}

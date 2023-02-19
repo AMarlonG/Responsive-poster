@@ -1,0 +1,57 @@
+
+html {
+    font-family: Avenir, 'Futura W01', helvetica, san-serif;
+
+}
+
+body {
+    background-color: whitesmoke;
+    color: #F9423A;
+    text-transform: lowercase;
+}
+
+#content {
+    background-color: #F5F1E1;
+    display: grid;
+    grid-template-columns: minmax(min-content, auto) max-content auto 1fr;
+    grid-template-rows: 1fr fit-content 1fr;
+    width: min(80rem, 100% - 2rem);
+    margin-inline: auto;
+    margin-block-start: 5rem;
+    padding: var(--space-xs);
+}
+
+.black-box {
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    aspect-ratio: 3.3 / 1;
+    background-color: black;
+    margin-block-start: calc(-1 * var(--space-xs));
+    margin-inline-start: calc(-1 * var(--space-xs));
+}
+
+h1 {
+    grid-column: 1 / 3;
+    grid-row: 2;
+    
+    justify-self: end;
+    font-size: var(--step-4);
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.small-grid {
+    grid-column: 2 / 4;
+    grid-row: 3;
+    border: black solid 2px;
+    display: grid;
+}
+
+.small-grid > p {
+    font-size: var(--step-0);
+    font-weight: 800;
+}
+
+.small-grid > h2 {
+    color: black;
+}
