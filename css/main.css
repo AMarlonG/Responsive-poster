@@ -106,7 +106,7 @@ body {
 .location {
     grid-column: 5;
     grid-row: 6 / span 1;
-    max-width: 20.9ch;
+    max-width: 21ch;
     border: 0.4rem solid black;
     padding: 0.8rem;
     justify-self: end;
