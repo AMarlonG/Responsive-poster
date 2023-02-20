@@ -35,6 +35,7 @@ body {
 }
 
 .title {
+    /* The font size also adjust the size of the black box */
     font-size: var(--step-2);
     font-weight: 800;
     direction: rtl;
