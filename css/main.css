@@ -87,6 +87,7 @@ body {
     grid-row: 5;
     padding-block-start: 0.5rem;
     font-size: 0.9rem;
+    margin-block-end: 0.9rem;
 }
 
 .price {
@@ -94,7 +95,7 @@ body {
     grid-row: 6;
     font-size: 1.6rem;
     font-weight: 800;
-    padding-block-start: 0.5rem;
+    line-height: 1;
 }
 
 .location {
@@ -103,7 +104,6 @@ body {
     max-width: 20ch;
     border: 0.4rem solid black;
     padding: 0.8rem;
-    margin-block-start: 0.5rem;
     justify-self: end;
 
     font-size: 0.9rem;
@@ -115,6 +115,7 @@ body {
     .location {
         grid-column: 3 / span 2;
         grid-row: 7;
+        margin-block-start: 0.8rem;
     }
 }
 
