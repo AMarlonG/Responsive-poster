@@ -15,6 +15,6 @@
     --step-1: clamp(1.78rem, calc(1.20rem + 2.90vw), 3.45rem);
 
 /* Step 2: 31.61px → 63.23px */
-    --step-2: clamp(1.98rem, calc(1.29rem + 3.44vw), 3.95rem);
+    --step-2: clamp(1.98rem, calc(1.29rem + 3.44vw), 5.95rem);
 
 }

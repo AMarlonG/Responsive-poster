@@ -16,9 +16,9 @@ body {
     display: grid;
     grid-template-columns: auto minmax(auto, 20ch) auto fit-content auto;
     grid-template-rows: auto auto;
-    width: min(80rem, 100% - 2rem);
+    width: min(100rem, 100% - 2rem);
     margin-inline: auto;
-    margin-block-start: 5rem;
+    margin-block-start: 7rem;
     padding: var(--space-xs);
 }
 
@@ -28,7 +28,7 @@ body {
 }
 
 .black-box {
-    aspect-ratio: 3.2 / 1;
+    aspect-ratio: 3.2 / 1.3;
     background-color: black;
     margin-block-start: calc(-1 * var(--space-xs));
     margin-inline-start: calc(-1 * var(--space-xs));
@@ -41,7 +41,7 @@ body {
     text-align: start;
     justify-self: end;
     line-height: 1.3em;
-    margin-inline-start: -0.4em;
+    margin-inline-start: -0.35em;
     /* border: 2px lime solid; */
 }
 
