@@ -14,7 +14,7 @@
 /* Step 1: 28.45px → 55.12px */
     --step-1: clamp(1.78rem, calc(1.20rem + 2.90vw), 3.45rem);
 
-/* Step 2: 50.58px → 63.23px */
-    --step-2: clamp(3.16rem, calc(2.89rem + 1.38vw), 3.95rem);
+/* Step 2: 31.61px → 63.23px */
+    --step-2: clamp(1.98rem, calc(1.29rem + 3.44vw), 3.95rem);
 
 }
