@@ -2,7 +2,10 @@
 :root {
 
 /* Space xs: 12px → 16px */
---space-xs: clamp(0.75rem, calc(0.66rem + 0.43vw), 1.00rem);
+    --space-xs: clamp(0.75rem, calc(0.66rem + 0.43vw), 1.00rem);
+
+/* Space 3xl: 132px → 168px */
+    --space-3xl: clamp(8.25rem, calc(7.47rem + 3.91vw), 10.50rem);
 
 
 
